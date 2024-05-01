@@ -160,7 +160,10 @@ I can't credit where I learned everything, but do include credits for the couple
         - Connect inserters to their respective chests so they know how full their chests are
         - Only enable inserters if their chest is less or equal to the average. Use the * signal of the same color wire connecting the chest to inserter for a universal blueprint
             - ![inserter settings](balancedInserter.png)
-        - This results in several circuit networks for the balancer - one for totals, one for the total count (connected to all chests and arithmetic combinator input), one for the average (connected to arithmetic combinator output and all inserters going to chests), and individual connections from each inserter dropping in a chest to that chest
+        - This results in several circuit networks for the balancer:
+            - One for the total count (connected to all chests and arithmetic combinator input, as well as the train limit decider combinators)
+            - One for the average (connected to arithmetic combinator output and all inserters going to chests)
+            - Individual connections from each inserter dropping in a chest to that chest
         - Since there are only 2 circuit wire colors, the wires going to / from the arithmetic combinator must be the same color (green in examples below), and the ones connecting chests to inserters must be the other color (red in examples below)
         - Loading example, single side and 3 inserters / wagon to make it easier to see wires (includes deciders for train limit), note the red wires connecting chests to inserters:
             - ![balanced loading overview](balancedLoader0.png)
