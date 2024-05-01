@@ -84,7 +84,7 @@ I can't credit where I learned everything, but do include credits for the couple
 2. Following the signalling rules in the Signalling section above, it can be very easy to design intersections that allow for good throughput. There are excellent blueprints available online, but designing your own is rewarding, ensures that your intersections accommodate your chosen max train length, and if you follow the rules you will have more than adequate throughput.
 3. Building your own intersections will also cement proper usage of signals in your head, for when you build non-standard things like forking stations.
 4. Since intersections will be blueprinted, you only need to get it right once! It took me a couple of tweaks to get trains to only stop when necessary, but in practice that just meant adding a couple of chain signals where I had missed them.
-5. This gif makes explains how to build a four way intersection better than words can. Caption is "Follow each possible route from a single entrance, placing chain signals before every crossing, and a rail signal after the last one", to which I'll add "copy, then rotate three times and paste" (credit: pinned message by "Swan" on the Factorio discord, under the train-help channel)
+5. This gif explains how to build a four way intersection better than words can. Caption is "Follow each possible route from a single entrance, placing chain signals before every crossing, and a rail signal after the last one", to which I'll add "copy, then rotate three times and paste" (credit: pinned message by "Swan" on the Factorio discord, under the train-help channel)
     - ![4-way intersections gif](intersections.gif)
 
 ## Stackers
