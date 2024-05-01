@@ -151,7 +151,7 @@ I can't credit where I learned everything, but do include credits for the couple
     - As I mentioned, the top slot of my depots is a fuel drop station.
     - A route picks up at the fuel pickup until full, then heads to fuel drop station until inactivity (depot has full fuel or train is empty).
     - The fuel delivery trains are fueled at the fuel drop.
-    - Fuel drop stations have their train limit set to one after fuel levels drop below a certain threshold, ensuring that fuel trains only run when depots need fuel
+    - Fuel drop stations have their train limit set to one after fuel storage at the depot drops below a certain threshold, ensuring that fuel trains only run when a depot needs fuel
     - Stackers at fuel pickup should be able to accommodate all fuel trains, so there is no need for a depot stop on the schedule, or to dynamically disable / enable fuel pickup (they will just sit at the pickup station / stacker until needed). I'm only using a single fuel delivery train for nuclear fuel right now, but have a few stackers if that needs to change. Since fuel usage is low (due to dynamic stations), a single fuel delivery train is working very well for my network, but obviously a megabase would have different needs.
 
 ## Advanced (balanced) train loading / unloading
