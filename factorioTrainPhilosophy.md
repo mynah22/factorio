@@ -151,7 +151,7 @@ I can't credit where I learned everything, but do include credits for the couple
 3. The simplest solution I've seen to this problem is to balance loading / unloading between inserters at a station
     - First of all, it is worth mentioning that balancing inserters will usually result in a slight decrease from the maximum throughput *at the train station*, since not all inserters will be running all the time. However, outputs or inputs will be evenly utilized, and trains will spend a consistent time at stations (more trains over time = more throughput). The biggest throughput killer is having empty chests!
     - Balancing is less important if trains are not ever filling up the input / output buffer, so might not be as useful in the early stages of your rail network, but is extremely useful as production improves
-    - Balancing inserters allows whatever belt balancer you are using for input / output to back up and
+    - Balancing inserters allows whatever belt balancer you are using for input / output to back up and compensate the belts that need more item
     - Balancing inserters is a pretty simple concept, using the circuit network:
         - Obtain a count of the input / output chests (should already have that in order to set train limits)
         - Use an arithmetic combinator to obtain the average count of the chests (divide total by number of chests). For a universal blueprint, you can average the * signal (the 'all signals' signal). I use the A signal for output, but that is a default signal for accumulator charge, you can use something else if you like.
