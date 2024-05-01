@@ -89,7 +89,7 @@ I can't credit where I learned everything, but do include credits for the couple
 
 ## Stackers
 
-1. Stackers are the easiest and most extendable way to have multiple trains to visit stations.
+1. Stackers are the easiest and most extendable way to have multiple trains visit stations.
 2. Stackers can be shared between multiple stations.
 3. Here is an image from the wiki Signals guide linked above (credit: Factorio wiki):
     - ![Train stackers image](Train_stackers.png)
