@@ -7,6 +7,19 @@ If I say things should or must be a certain way, that's only to fit into *my rai
 I am not an expert in anything factorio, and only have one base where I used rail signals at all! I'm not pretending to have tried or seen everything, just passing on my experience and community knowledge.
 
 I can't credit where I learned everything, but do include credits for the couple of images I copied rather than screenshot.
+- **Table of contents**
+  
+  - [Reasons to use trains](#reasons-to-use-trains)
+  - [Trains vs. other transport methods](#trains-vs-other-transport-methods)
+  - [Main design principles](#main-design-principles)
+  - [Signals](#signals)
+  - [Intersections](#intersections)
+  - [Stackers](#stackers)
+  - [Stations (endpoints)](#stations-endpoints)
+  - [Dynamic stations](#dynamic-stations)
+  - [Dynamic station routes](#dynamic-station-routes)
+  - [Advanced (balanced) train loading / unloading](#advanced-balanced-train-loading--unloading)
+
 
 ## Reasons to use trains
 
