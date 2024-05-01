@@ -17,8 +17,8 @@ I can't credit where I learned everything, but do include credits for the couple
   - [Intersections](#intersections)
   - [Stackers](#stackers)
   - [Stations (endpoints)](#stations-endpoints)
+  - [Dynamic stations](#dynamic-stations)
   - [Dynamic train schedules](#dynamic-train-schedules)
-  - [Dynamic station routes](#dynamic-station-routes)
   - [Advanced (balanced) train loading / unloading](#advanced-balanced-train-loading--unloading)
 
 ## Reasons to use trains
