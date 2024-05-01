@@ -17,7 +17,7 @@ I can't credit where I learned everything, but do include credits for the couple
   - [Intersections](#intersections)
   - [Stackers](#stackers)
   - [Stations (endpoints)](#stations-endpoints)
-  - [Dynamic stations](#dynamic-stations)
+  - [Dynamic train schedules](#dynamic-train-schedules)
   - [Dynamic station routes](#dynamic-station-routes)
   - [Advanced (balanced) train loading / unloading](#advanced-balanced-train-loading--unloading)
 
@@ -132,7 +132,7 @@ I can't credit where I learned everything, but do include credits for the couple
     - Likewise, this simplifies upgrading train fuel types. Just drop off the new fuel at the depot and trains will fill up with that once they burn off the old stuff.
     - I put a fuel drop station as the top slot of my depots, with a dedicated route. Bots or belts can then pass fuel to all the "[locomotive icon] depot" stations
 
-## Dynamic station routes
+## Dynamic train schedules
 
 1. It took me a good while to get this right, and none of the guides I read really discussed how to make sure dynamic trains weren't just running 24/7.
 2. Factorio 2.0 will be adding train schedule interrupts, so some of this will become more flexible, but in ways that should be easy to understand. I think depots will still be essential to prevent stopping on tracks.
@@ -141,7 +141,7 @@ I can't credit where I learned everything, but do include credits for the couple
     - This is one of the keys to keeping trains running only when needed. The way it works is simple: trains will **skip** stations on their schedule if they are disabled (bad, likely just going back and forth between pickup and depot), *but will wait for them to open up* if their train limit is full or at zero (good, keeps traffic and fuel use to minimum needed).
 4. Basic schedule is dead easy - head to item pickup until full, head to drop until empty, head to depot until some inactivity (fully fueled)
     - This simple configuration works well only because of the set up discussed in the Dynamic Stations section.
-    - Since stations will only set their train limit for the amount trains that they can fill / empty, there will be enough space or items for each train dispatched there, so no chance of deadlocks or blocking main rail.
+    - Since stations will not set their train limit above the maximum number they can fit, there will be enough stackers for each train dispatched there, so no chance of deadlocks or blocking main rail.
     - This is the key: *If no stations of a given name require a train, trains will wait at their current station*. Once I got this right my train traffic plummeted to a mere fraction of what it was before, as trains are only running as the stations require. This keeps intersections clear, improving throughput and reducing fuel usage.
     - Since stations only request the number of trains they can accommodate, load and unload times should be basically maximum for a given design, so setting timeout conditions are not really necessary. More advanced control of loading and unloading (discussed at the end of this document) can further ensure that cargo is processed at the maximum rate, so the full / empty conditions are completely sufficient.
     - In practice, you generally will have more pickup stations than drop stations. The result is that a train goes to the pickup, fills up, then sees that no drop station is available. It waits at the pickup station until a drop requires more items. If the pickup station has enough items for more trains, the trains will queue at the stacker up to the maximum the station can handle. This is great, because they are right there to fill up, and are not clogging depots.
