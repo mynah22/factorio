@@ -4,7 +4,7 @@ These are my notes on how to run a good rail network. Very little (probably noth
 
 If I say things should or must be a certain way, that's only to fit into *my rail network philosophy*. The great thing about Factorio is that you can build anything you want, and there is no 'best' way to do anything. I do really like this design, as it creates an easily extensible, dynamic network that keeps trains running only when needed, but that might not be the best fit for someone else's base.
 
-I am not an expert in anything factorio, and only have one base where I used rail signals at all! I'm not pretending to have tried or seen everything, just passing on my experience and community knowledge.
+I am not an expert in anything factorio, and have only built a few large bases with dynamic rail systems. I'm not pretending to have tried or seen everything, just documenting my experience and community knowledge.
 
 I can't credit where I learned everything, but do include credits for the couple of images I copied rather than screenshot.
 
