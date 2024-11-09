@@ -7,8 +7,9 @@
 3. sub factories process fruit on site (spoils slower)
 4. nutrients will have to flow upstream
 5. nutrients can also be made from spoilage at start of subfactories
-6. spoilage is drained from all subfactories and put on belt
-7. spoilage is run through spoilage drain subfactory (carbon, nutrients), then burned at end of belt
+6. bacteria outputs to smelters, which output to belt
+7. spoilage is drained from all subfactories and put on belt
+8. spoilage is run through spoilage drain subfactory (carbon, nutrients), then burned at end of belt
 
 ## items
 
@@ -31,7 +32,7 @@
 - spoilage
   - made everywhere from waste
 - nutrients
-  - required for biofactories to run
+  - required for biochambers to run
   - made from spoilage, yamako mash, or bioflux
     - bioflux is by far the most productive recepie
 - carbon
@@ -40,3 +41,68 @@
 - bacteria
   - uses bioflux to breed bacteria
   - bacteria spoils to ore
+- pentapod eggs
+  - spoil to live pentapods, must be contained in defenses
+  - used for biochambers and sci
+- carbon fiber
+  - advanced recepie material
+  - carbon + mash
+- jelly
+  - used for various recepies, and lubricant
+
+## belt arrangement
+
+- stone piped directly to mall / finished goods subfactory
+- 2 belts nutrients? up and down?
+- 4 belts each jellyfruit / yamako (dream big)
+- 4 belts each jelly / mash
+  - created at early subfactories
+- 4 belts bioflux
+- bioflux > nutrient self sustaining subfactory early
+  - or maybe on site?
+- big bioflux factory (maybe produce jelly / mash on site)
+- both bacteria, sulfer, plastic, rocket fuel subfactories
+- smelters for ore
+- metal, sulfer, plastic get shipped to mall / finished goods factory
+- rocket fuel gets sent to rocket / logistic network
+  - some sulfer stays for coal production
+- pentapod subfactory
+  - circuit network control to limit eggs in storage
+  - defenses for spoilage
+- science subfactory
+- carbon subfactory (spoilage)
+- carbon fiber subfactory (carbon + mash)
+- coal subfactory (carbon + sulfer)
+  - goes to mall / finished goods factory (for explosives)
+- spoilage > nutrient subfactory
+- spoilage burner
+
+## mall / finished goods factory
+
+- intermediates
+  - steel
+  - circuits
+  - batteries
+  - sulfuric acid
+  - concrete
+  - stone bricks
+  - low density structure
+- essentials
+  - pipes & pumps
+  - belts
+  - inserters
+  - ammo
+  - poles
+  - train stuff
+  - roboports / robots / logistic chests
+  - combinators
+  - furnaces
+  - agriculture tower
+  - assemblers
+  - miners (stone)
+  - landfill
+    - special landfill (yamako & jelly)
+  - heating tower, heat exchangers, heat pipies, turbines
+  - modules
+  - walls
+- 
