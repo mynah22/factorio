@@ -76,7 +76,7 @@
 - carbon fiber subfactory (carbon + mash)
   - goes to mall / finished goods factory (rocket turrets, toolbelt expander, fusion reactor, stack inserter)
 - coal subfactory (carbon + sulfer)
-  - goes to mall / finished goods factory (for explosives)
+  - goes to mall / finished goods factory (for explosives & grenades)
 - spoilage > nutrient subfactory
 - spoilage burner
 
@@ -90,6 +90,7 @@
   - concrete
   - stone bricks
   - low density structure
+  - explosives
 - essentials
   - pipes & pumps
   - belts
