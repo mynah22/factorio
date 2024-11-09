@@ -2,7 +2,7 @@
 
 ## flow
 
-1. fruit is transported to bus unprocessed
+1. fruit is transported to bus unprocessed (spoils slowly)
 2. circuit network (tries?) to keep all spots planted, but only harvest when needed
 3. sub factories process fruit on site (spoils slower)
 4. nutrients will have to flow upstream
@@ -70,6 +70,7 @@
   - circuit network control to limit eggs in storage
   - defenses for spoilage
 - science subfactory
+- lubricant subfactory (piped to mall / finished goods factory)
 - carbon subfactory (spoilage)
 - carbon fiber subfactory (carbon + mash)
 - coal subfactory (carbon + sulfer)
