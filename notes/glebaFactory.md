@@ -70,9 +70,11 @@
   - circuit network control to limit eggs in storage
   - defenses for spoilage
 - science subfactory
-- lubricant subfactory (piped to mall / finished goods factory)
+- lubricant subfactory
+  - piped to mall / finished goods factory (blue belts, electric engines)
 - carbon subfactory (spoilage)
 - carbon fiber subfactory (carbon + mash)
+  - goes to mall / finished goods factory (rocket turrets, toolbelt expander, fusion reactor, stack inserter)
 - coal subfactory (carbon + sulfer)
   - goes to mall / finished goods factory (for explosives)
 - spoilage > nutrient subfactory
@@ -93,6 +95,7 @@
   - belts
   - inserters
   - ammo
+  - turrets
   - poles
   - train stuff
   - roboports / robots / logistic chests
@@ -106,4 +109,3 @@
   - heating tower, heat exchangers, heat pipies, turbines
   - modules
   - walls
-- 
