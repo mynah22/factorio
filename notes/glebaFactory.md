@@ -106,6 +106,6 @@
   - miners (stone)
   - landfill
     - special landfill (yamako & jelly)
-  - heating tower, heat exchangers, heat pipies, turbines
+  - heating tower, heat exchangers, heat pipes, turbines
   - modules
   - walls
