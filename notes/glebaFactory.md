@@ -22,7 +22,7 @@
   - used for everything good
     - plastic
       - mash + bioflux
-    - sulfer
+    - sulfur
       - spoilage + bioflux
     - rocket fuel
       - jelly + bioflux
@@ -61,11 +61,11 @@
 - bioflux > nutrient self sustaining subfactory early
   - or maybe on site?
 - big bioflux factory (maybe produce jelly / mash on site)
-- both bacteria, sulfer, plastic, rocket fuel subfactories
+- both bacteria, sulfur, plastic, rocket fuel subfactories
 - smelters for ore
-- metal, sulfer, plastic get shipped to mall / finished goods factory
+- metal, sulfur, plastic get shipped to mall / finished goods factory
 - rocket fuel gets sent to rocket / logistic network
-  - some sulfer stays for coal production
+  - some sulfur stays for coal production
 - pentapod subfactory
   - circuit network control to limit eggs in storage
   - defenses for spoilage
@@ -75,7 +75,7 @@
 - carbon subfactory (spoilage)
 - carbon fiber subfactory (carbon + mash)
   - goes to mall / finished goods factory (rocket turrets, toolbelt expander, fusion reactor, stack inserter)
-- coal subfactory (carbon + sulfer)
+- coal subfactory (carbon + sulfur)
   - goes to mall / finished goods factory (for explosives & grenades)
 - spoilage > nutrient subfactory
 - spoilage burner
@@ -91,6 +91,7 @@
   - stone bricks
   - low density structure
   - explosives
+  - repair pack
 - essentials
   - pipes & pumps
   - belts
